@@ -5,7 +5,7 @@ import visitor.impl.CustomerA;
 import visitor.impl.CustomerB;
 import visitor.impl.Merchant;
 
-public class MainTest {
+public class VisitorTest {
 
     @Test
     public void visitorTest() throws Exception {

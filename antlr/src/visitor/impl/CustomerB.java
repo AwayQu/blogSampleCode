@@ -8,7 +8,7 @@ public class CustomerB implements Visitor {
     @Override
     public void visit(Node n) {
         if (n instanceof Merchant) {
-            ((Merchant)n).orderGoodsB();
+            ((Merchant) n).orderGoodsB();
         }
     }
 }
