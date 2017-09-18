@@ -7,6 +7,7 @@ import java.io.File;
 
 
 public class VisitorDirectoryTreeTest {
+
     @Test
     public void visitorDirectoryTreeTest() throws Exception {
 
@@ -19,7 +20,8 @@ public class VisitorDirectoryTreeTest {
                 File file = n.getFile();
                 StringBuilder sb = new StringBuilder();
                 for (int i = 1; i < depth; i++) {
-                    sb.append("---");
+                    sb.append(i == 1 ? "|" : "-");
+                    sb.append("--");
                 }
                 sb.append(file.getName());
                 System.out.println(sb.toString());

@@ -1,7 +1,6 @@
 package visitorDirectoryTree;
 
 
-import visitor.Node;
 import visitor.Visitor;
 
 public interface FileVisitor extends Visitor {
